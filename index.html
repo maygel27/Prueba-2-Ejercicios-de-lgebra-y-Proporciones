@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simulador de Razonamiento Cuantitativo</title>
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+  <div class="contenedor-principal">
+    <!-- LOGO DE EMPRESA -->
+    <div class="logo">
+      <img src="logo.jpg" alt="Logo de la empresa ISTIP Soluciones S.A.S" />
+    </div>
+
+    <!-- Título Principal del Simulador -->
+    <h1 class="titulo-principal">Simulador de Razonamiento Cuantitativo</h1>
+    <h2 class="subtitulo-prueba">Prueba #2: Ejercicios de Álgebra y Proporciones</h2>
+
+    <div id="simulador">
+      <div id="pregunta-container">
+        <div id="numero-pregunta"></div>
+        <h2 id="caso"></h2>
+        <p id="pregunta"></p>
+        <div id="opciones"></div>
+        <button id="confirmar" disabled>Confirmar Respuesta</button>
+      </div>
+
+      <div id="resultados" style="display: none">
+        <h2>Resultados y Retroalimentación</h2>
+        <div id="resumen"></div>
+        <p id="tiempo-total"></p>
+        <button id="reiniciar">Volver a intentar</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
